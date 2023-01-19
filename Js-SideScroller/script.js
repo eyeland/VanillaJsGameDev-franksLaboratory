@@ -10,7 +10,6 @@ window.addEventListener("load", function (e) {
   let timerCount = 0;
   let showControlTimer = setInterval(() => {
     timerCount++;
-    console.log(timerCount);
     if (timerCount > 2) {
       showControls = false;
       clearInterval(showControlTimer);
